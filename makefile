@@ -1,4 +1,4 @@
-# example:$ make -f ./supa migration name=fuga 
+# example:$ make migrate name=fuga 
 
 migrate:
 	supabase db diff --use-migra $(name) -f $(name)
