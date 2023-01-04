@@ -10,9 +10,6 @@ reset:
 mig-update-type:
 	supabase gen types typescript --local > supabase/types.ts     
 
-push:
-	supabase db push
-
 stop:
 	supabase stop
 
